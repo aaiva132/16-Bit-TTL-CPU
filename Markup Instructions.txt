@@ -1,0 +1,52 @@
+000000 - Reset				:Program counters and registers are reset/cleared
+000001 - Unconditional Jump		:Program counter loads the value specified in micro-code
+
+000010 - Call
+000011 - Return
+
+000100 - Start Load Program
+000101 - End Load Program
+000110 - Start Program
+000111 - End Program
+
+0010pp - Set Tri-State Register
+0011pp - Set Port
+
+0100pp - Set Port Pin
+
+0110pp - Test Port Pin Clear
+0111pp - Test Port Pin Set
+
+100000 - Load To Accumulator		:Loads a value into the accumulator
+10001L - Shift				:Shifts the value in the accumulator
+1001xx - Logical Comparison		:
+1010cc - Logical Operation		:
+10110s - Arithmetic Operation		:
+
+110sss - Test Status Pin Clear
+111sss - Test Status Pin Set
+
+RESET
+JMP
+
+CALL
+RETURN
+
+STLP
+ENLP
+
+STP
+ENP
+
+STRS
+SPRT
+
+LDA
+
+RLA
+RRA
+
+AND
+OR
+NOT
+XOR

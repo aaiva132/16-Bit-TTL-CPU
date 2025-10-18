@@ -1,0 +1,10 @@
+GPU NOTES:
+- For Sprite Addressing:
+- - SpriteNumber | PixelNumber
+- - PixelNumber consists of 6 bits. 3 bits for horizontal counter, 3 bits for vertical counter.
+- - LSB is the LSB of the horizontal counter. hPos is followed by vPos.
+
+
+RAM ICs:
+- Sprite Sheet: AS6C62256-55PCN
+- Buffer Memory: AS6C4008
